@@ -1,0 +1,13 @@
+.otp-btn {
+  margin: 2rem auto 0 auto;
+  background-color: var(--yellow-45);
+  color: black;
+  font-weight: 600;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.otp-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}

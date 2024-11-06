@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --snow-white: #fffafa;
+  --gainsboro: #dcdcdc;
+  --red-50: rgb(188, 44, 41); /* Red with 50% opacity */
+  --yellow-45: rgb(228, 209, 1); /* Yellow with 45% opacity */
+  --postal-blue-33: rgb(1, 119, 178); /* Postal blue with 33% opacity */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+}
+
+.btn {
+  background-color: #0177b2;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  color: #fffafa;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+
+.line {
+  height: 2rem;
+  width: 4px;
+  background-color: red;
+  transform: translateY(8px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

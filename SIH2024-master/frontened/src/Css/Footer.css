@@ -1,0 +1,211 @@
+.footer-container {
+  background-color: #0d1117;
+  color: white;
+  padding: 3rem;
+  padding-bottom: 1.2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto auto;
+  grid-template-areas:
+    "logo Product Services News"
+    "logo PDA Community Others";
+  justify-content: center;
+  row-gap: 20px;
+  border-bottom: 1px solid #2e3440;
+}
+
+.footer-card {
+  /* border-left: 1px solid #2e3440; */
+  /* padding-left: 20px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-left-section {
+  grid-area: logo;
+  align-self: center;
+  justify-self: center;
+}
+
+.product {
+  grid-area: Product;
+}
+
+.services {
+  grid-area: Services;
+}
+
+.pda {
+  grid-area: PDA;
+}
+
+.news {
+  grid-area: News;
+}
+
+.community {
+  grid-area: Community;
+}
+
+.others {
+  grid-area: Others;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: column;
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin-top: -1.25rem;
+}
+
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.footer-card {
+  margin-bottom: 1.75rem;
+}
+
+.footer-card h2 {
+  color: #d1d5db;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.footer-link-item {
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #6b7280;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-link-item:hover {
+  color: #d1d5db;
+}
+
+.footer-bottom-container {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+
+.footer-bottom-links {
+  display: flex;
+  color: #6b7280;
+  align-items: center;
+}
+
+.footer-bottom-link {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #6b7280;
+}
+
+.footer-bottom-link:hover {
+  color: #f3f4f6;
+}
+
+.footer-bottom-link-border {
+  border-right: 1px solid #3b3f47;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  margin-top: 0rem;
+  font-size: 14px;
+  padding-right: 0.75rem;
+}
+
+@media (max-width: 850px) {
+  .footer-top-section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "logo logo logo"
+      "Product Services News"
+      "PDA Community Others";
+    justify-content: center;
+    row-gap: 20px;
+    border-bottom: 1px solid #2e3440;
+  }
+  .footer-logo {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer-bottom-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-bottom-links {
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  .footer-bottom-text {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-top-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+      "logo logo"
+      "Product Services"
+      "News PDA"
+      "Community Others";
+  }
+}
+
+@media (max-width: 350px) {
+  .footer-top-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+      "logo"
+      "Product"
+      "Services"
+      "News"
+      "PDA"
+      "Community"
+      "Others";
+  }
+  .footer-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

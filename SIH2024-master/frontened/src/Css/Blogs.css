@@ -1,0 +1,39 @@
+:root {
+  --surface-color: #fff;
+  --curve: 40;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #fef8f8;
+}
+
+.blogs-section {
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 2rem; */
+  margin: 4rem 2vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.blogs-heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+
+.blogs-heading > .line {
+  transform: translateY(9px);
+  height: 40px;
+}
+
+.blogs-heading > span {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+/* .blog-carousel-item {
+  margin: 0 20px;
+} */

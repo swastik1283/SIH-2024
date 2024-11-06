@@ -1,0 +1,19 @@
+body {
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* .grid-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+} */
+
+/* h1, h3 {
+    margin-bottom: 15px;
+  } */

@@ -1,0 +1,25 @@
+.icons {
+  font-size: 25px;
+}
+
+.submitButton {
+  background-color: #e4d101;
+}
+.submitButton:hover {
+  opacity: 0.9;
+}
+.FormBG {
+  background-color: #bc2c29;
+  min-width: 20rem;
+}
+.text {
+  color: #fffafa;
+}
+
+.vertical-align {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 2rem;
+}

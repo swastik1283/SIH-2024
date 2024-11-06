@@ -1,0 +1,57 @@
+.overview-leaderboard-container {
+  width: 37vw;
+  background-color: white;
+  height: 30vh;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overview-leaderboard-button-group {
+  width: 60%;
+  background-color: aqua;
+  margin: 0.8rem auto 0 auto;
+  border-radius: 50px;
+  height: 35px;
+  position: relative;
+  color: white;
+  /* z-index: -1; */
+}
+
+.overview-leaderboard-button-group > label {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  transform: translateY(15%);
+}
+
+.overview-leaderboard-button-group > input {
+  display: none;
+}
+
+.slider {
+  height: 100%;
+  width: 50%;
+  background-color: gray;
+  border-radius: 50px;
+  position: absolute;
+  /* left: 0; */
+  top: 0;
+  /* z-index: 0; */
+  z-index: 0;
+  transition: all 0.1s linear;
+  /* transform: translateX(100%); */
+}
+
+:has(#medals:checked) .slider {
+  transform: translateX(100%);
+}
+:has(#leaderboards:checked) .slider {
+  transform: translateX(0);
+}
+
+.dashboard-overview-leaderboard-text {
+  padding: 15px 20px;
+}

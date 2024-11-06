@@ -1,0 +1,48 @@
+.goals {
+  background-color: red;
+  width: 37vw;
+  padding: 10px 15px 15px 15px;
+  border-radius: 15px;
+}
+
+.dashboard-overview-product-card-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.dashboard-overview-order-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal-card {
+  /* background-color: blue; */
+  background-color: white;
+  padding: 15px 0 10px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+  /* height: 150px; */
+}
+
+.orders-img {
+  background: url(https://gratisography.com/wp-content/uploads/2024/03/gratisography-funflower-1170x780.jpg);
+  background-size: contain;
+  height: 80px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.goal-card p {
+  /* margin-bottom: 10px; */
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.goal-card p:nth-child(2) {
+  color: #0057ff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}

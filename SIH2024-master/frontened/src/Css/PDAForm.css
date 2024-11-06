@@ -1,0 +1,85 @@
+/* PhilatelicForm.css */
+
+.philatelic-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-item .form-label {
+  flex: 1;
+}
+
+.order-item .form-input {
+  flex: 0 0 60px;
+}

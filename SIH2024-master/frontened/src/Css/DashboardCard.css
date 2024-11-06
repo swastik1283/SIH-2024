@@ -1,0 +1,93 @@
+.payment-card-summary {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-bottom: 20px; */
+  width: 39vw;
+  align-items: center;
+}
+
+.payment-card-details {
+  width: 55%;
+  height: 11rem;
+  background: #0057ff;
+  border-radius: 1rem;
+  padding: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-card-border {
+  height: 100%;
+  width: 1px;
+  background-color: gray;
+}
+
+.card-number {
+  font-size: 1.3rem;
+}
+
+.payment-card-details h3 {
+  font-size: 1.2rem;
+  /* color: #0057ff; */
+  /* margin-bottom: 10px; */
+}
+
+/* .payment-card-details > p {
+  font-size: 1rem;
+  /* color: #333; */
+/* margin: 5px 0; */
+
+.card-holder-details {
+  display: flex;
+  flex-direction: row;
+  > p {
+    font-size: 0.4rem;
+  }
+}
+
+.card-details-heading {
+  font-size: 0.7rem;
+}
+
+.holder-name {
+  margin-right: 25px;
+}
+
+.account-overview-dashboard {
+  /* flex-grow: 0.3; */
+  /* width: 30%; */
+  text-align: center;
+}
+
+.account-balance-heading {
+  font-size: 1.2rem;
+}
+
+.account-balance {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.account-balance-text {
+  font-size: 0.9rem;
+}
+
+/* .card-details button {
+  background-color: #ff4c4c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card-details button:hover {
+  background-color: #e43e3e;
+} */
